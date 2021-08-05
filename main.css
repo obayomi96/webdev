@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('/public/fonts/Avenir-Heavy.ttf')  format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Avenir';
+  background-color: #fafafa !important;
+}
+
+.text-red {
+  color: #f1632b !important
+  /* color: rgb(255, 89, 0) !important; */
+}
+
+.btn-danger {
+  color: #fff !important;
+  background-color: #f1632b !important;
+  border: 1px solid #f1632b !important;
+}
+
+.btn-outline-danger {
+  color: #f1632b !important;
+  border: 1px solid #f1632b !important;
+  background-color: #fff !important;
+}
+
+.btn-outline-danger:hover {
+  color: #fff !important;
+  border: 1px solid #f1632b !important;
+  background-color: #f1632b !important;
+}
+
+.left-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 0 !important;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px -1px 12px -1px rgba(204,198,198,0.49);
+-webkit-box-shadow: 1px -1px 12px -1px rgba(204,198,198,0.49);
+-moz-box-shadow: 1px -1px 12px -1px rgba(204,198,198,0.49);
+}
+
+.left-card-body {
+  line-height: 3;
+  width: 90%;
+  margin: auto 0 !important;
+}
+
+.left-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.right-section {
+  margin-left: 0;
+  margin-right: 100px;
+}
+
+.card1-btn {
+  width: 280px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.dropdown-toggle:focus, .dropdown-toggle:active  {
+  outline: none !important;
+  border: none !important;
+  content: none !important;
+}
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.dropdown-item:focus {
+  outline-style: none !important;
+  border: none !important;
+  text-decoration: none !important;
+  background-color: #ddd !important;
+}
