@@ -16,7 +16,10 @@ body {
 
 .text-red {
   color: #f1632b !important
-  /* color: rgb(255, 89, 0) !important; */
+}
+
+.nav-text-2 {
+  display: none !important;
 }
 
 .btn-danger {
@@ -40,6 +43,7 @@ body {
 .left-card {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   margin: auto 0 !important;
   border: none;
@@ -91,12 +95,121 @@ body {
   background-color: #ddd !important;
 }
 
+.navbar1 {
+  display: none !important;
+}
+
+.main-div2 {
+  display: none !important;
+}
+
+/* @media only screen and (max-width: 600px) */
+
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+  and (min-device-width: 320px)
+  and (max-device-width: 600px) {
     body {
-      
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
     }
+
+    .main-div {
+      display: none !important
+    }
+
+    .navbar {
+      display: none !important;
+    }
+
+    .navbar1 {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-evenly !important;
+      width: 100% !important;
+      height: 50px !important;
+    }
+
+    .left-div1 {
+      width: 100% !important;
+      flex-wrap: wrap;
+    }
+
+    .left-div {
+      width: 100% !important;
+    }
+
+    .nav-text {
+      display: none !important;
+    }
+
+    .nav-text-2 {
+      display: block !important;
+      font-size: 12px !important;
+    }
+
+    .user {
+      height: 15px !important;
+      width: 15px !important;
+    }
+
+    .dropdown-toggle {
+      font-size: 14px !important;
+      padding-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .student-image {
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      width: 70px !important;
+      height: 15px !important;
+    }
+
+    .left-card {
+      width: 100% !important;
+      box-shadow: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important;
+    }
+
+    .main-div2 {
+      display: block !important
+    }
+
+    .left-card-top {
+      width: 100% !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      margin-top: 0 !important;
+      margin-bottom: 0px !important;
+    }
+
+    .right-section {
+      width: 75% !important;
+      margin: 0 !important;
+      padding: 0 0 0 20px !important;
+    }
+
+    .left-card-image {
+      width: auto !important;
+      margin-bottom: 50px !important;
+    }
+
+    main {
+      margin: 0 !important;
+    }
+
+    .trial-div {
+      width: 100% !important;
+      margin: 30px 0 20px 0 !important
+    }
+
+    .padded-a {
+      padding: 10px 0 !important;
+    }
+
 }
