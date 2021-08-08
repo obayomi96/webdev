@@ -19,6 +19,11 @@ body {
   color: #f1632b !important
 }
 
+.text-red-div {
+  display: flex;
+  align-items: center;
+}
+
 .nav-text-2 {
   display: none !important;
 }
@@ -42,12 +47,14 @@ body {
 }
 
 .left-card {
+  width: 45rem !important;
+  height: 28rem !important;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   margin: auto 0 !important;
-  border: none;
+  border: none !important;
   border-radius: 4px;
   box-shadow: 1px -1px 12px -1px rgba(204,198,198,0.49);
 -webkit-box-shadow: 1px -1px 12px -1px rgba(204,198,198,0.49);
@@ -115,6 +122,10 @@ body {
       flex-direction: column;
     }
 
+    main {
+      margin: 0 !important;
+    }
+
     .main-div {
       display: none !important
     }
@@ -133,11 +144,9 @@ body {
 
     .left-div1 {
       width: 100% !important;
-      flex-wrap: wrap;
-    }
-
-    .left-div {
-      width: 100% !important;
+      display: flex !important;
+      justify-content: space-around !important;
+      flex-wrap: wrap !important;
     }
 
     .nav-text {
@@ -160,7 +169,7 @@ body {
       margin-right: 0 !important;
     }
 
-    .student-image {
+    .logo-image {
       margin-left: 0 !important;
       padding-left: 0 !important;
       padding-right: 0 !important;
@@ -200,17 +209,21 @@ body {
       margin-bottom: 50px !important;
     }
 
-    main {
-      margin: 0 !important;
-    }
-
     .trial-div {
       width: 100% !important;
-      margin: 30px 0 20px 0 !important
+      margin: 30px auto 20px auto !important
     }
 
     .padded-a {
       padding: 10px 0 !important;
+    }
+
+    .upgrade-div {
+      width: 80%; align-items: center;
+    }
+
+    .journey-section {
+      width: 90%;
     }
 
 }
