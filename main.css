@@ -86,15 +86,18 @@ body {
 }
 
 .journey-sec-w {
-  width: 30%; margin-right: 0;
+  width: 30%; 
+  margin-right: 0;
 }
 
 .journey-div-w {
-  width: 30rem; height: 30rem;
+  width: 30rem; 
+  height: 30rem;
 }
 
 .text-red-div {
-  display: flex; align-items: center;
+  display: flex; 
+  align-items: center;
 }
 
 .trial-title {
@@ -102,19 +105,26 @@ body {
 }
 
 .bootcamp-sec-div-container {
-  width: 75%; display: flex; justify-content: space-between;
+  width: 75%; 
+  display: flex; 
+  justify-content: space-between;
 }
 
 .bootcamp-sec-flex-container {
-  display: flex; justify-content: space-around;
+  display: flex; 
+  justify-content: space-around;
 }
 
 .bootcamp-img-div {
-  display: flex; justify-content: space-around; align-items: center;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
 }
 
 .bootcamp-img-div {
-  display: flex; justify-content: space-around; align-items: center;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
 }
 
 .upgrade-div {
@@ -126,15 +136,20 @@ body {
 }
 
 .trial-div-2 {
-  display: flex; justify-content: space-between; 
+  display: flex; 
+  justify-content: space-between; 
 }
 
 .trial-div-3 {
-  display: flex; flex-wrap: wrap; justify-content: space-around;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around;
 }
 
 .trial-flex-div {
-  display: flex; justify-content: space-around; align-items: center;
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center;
 }
 
 .right-section {
