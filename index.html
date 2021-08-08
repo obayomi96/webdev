@@ -10,7 +10,7 @@
 </head>
 <body> 
   <header>
-    <nav class="navbar1 navbar-expand-lg navbar-light bg-light" >
+    <nav class="navbar-mobile navbar-expand-lg navbar-light bg-light" >
       <div>
         <img src="./public/images/url.png" class="logo-image" alt="Profile">
       </div>
@@ -22,15 +22,17 @@
       </div>
       <div class="dropdown d-profile my-2 my-lg-0 mr-0 pr-0">
         <img src="./public/images/student.png" class="user" style="border-radius: 50%;" width="25px" height="25px" alt="Profile">
-        <button style="background-color: transparent; border: none; outline: none;" class="btn btn-light dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-light dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Profile
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <button style="outline: hidden; border: none;" class="dropdown-item" type="button">Edit Profile</button>
-          <button style="outline: none; border: none;" class="dropdown-item" type="button">Log out</button>
+          <button class="dropdown-item" type="button">Edit Profile</button>
+          <button class="dropdown-item" type="button">Log out</button>
         </div>
       </div>
     </nav>
+
+    <!-- WEB VIEW NAVBAR STARTS BELOW-->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
       <img src="./public/images/url.png" class="logo-image" alt="Profile">
@@ -41,22 +43,21 @@
         </ul>
         <div class="dropdown d-profile my-2 my-lg-0 mr-4">
           <img src="./public/images/student.png" class="user" style="border-radius: 50%;" width="25px" height="25px" alt="Profile">
-          <button style="background-color: transparent; border: none; outline: none;" class="btn btn-light dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn btn-light dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Profile
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <button style="outline: hidden; border: none;" class="dropdown-item" type="button">Edit Profile</button>
-            <button style="outline: none; border: none;" class="dropdown-item" type="button">Log out</button>
+            <button class="dropdown-item" type="button">Edit Profile</button>
+            <button class="dropdown-item" type="button">Log out</button>
           </div>
         </div>
       </div>
     </nav>
   </header>
-  <main style="margin-top: 50px;">
-
-    <div class="main-div" style="width: 100%;">
-      <div class="left-div1" style="width: 90%; display: flex;justify-content: space-around; margin: auto;">
-        <div class="left-div" style="width: 45%;">
+  <main class="mt-5">
+    <div class="main-div">
+      <div class="left-div1">
+        <div class="left-div">
           <div class="card left-card">
             <div class="card-body left-card-body">
               <div class="left-card-top">
@@ -91,18 +92,22 @@
             </div>
           </div>
         </div>
-        <!-- ======================= -->
-        <div style="width: 30%; margin-right: 0;">
-          <div style="width: 30rem; height: 30rem;">
+        <div class="journey-sec-w">
+          <div class="journey-div-w">
             <div class="card-body">
-              <h5 class="card-title">Your coding journey</h5>
-              <div style="display: flex; align-items: center;"><h1 class="text-red mr-4">1</h1> <span class="text-secondary">Total programs written</span></div>
-              <div style="display: flex; align-items: center; margin-bottom: 30px;"><h1 class="text-red mr-3 pr-1">4</h1> <span class="text-secondary">Total code reviews</span></div>
+              <h5 class="card-title">Your coding journey 
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" fill="currentColor" class="bi bi-question-circle text-secondary ml-2" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                </svg>
+              </h5>
+              <div class="text-red-div"><h1 class="text-red mr-4">1</h1> <span class="text-secondary">Total programs written</span></div>
+              <div class="text-red-div mb-4"><h1 class="text-red mr-3 pr-1">4</h1> <span class="text-secondary">Total code reviews</span></div>
               <hr />
-              <div style="margin-top: 30px;">
+              <div class="get-info-div mt-4">
                 <h5 class="card-title">Get more information</h5>
-                <div class="text-secondary" style="margin-bottom: 30px; margin-top: 30px;">We're ready to help with any questions you may have about our bootcamp and mentor support.</div>
-                <div style="margin-bottom: 50px;">
+                <div class="text-secondary my-4">We're ready to help with any questions you may have about our bootcamp and mentor support.</div>
+                <div class="journey-btn-div mb-5">
                   <a href="#" class="btn btn-outline-danger2 btn-lg mr-4">Book a call</a>
                   <a href="#" class="btn btn-outline-danger2 btn-lg">Join an info session</a>
                 </div>
@@ -112,19 +117,19 @@
           </div>
         </div>
       </div>
-      <div><h5 style="margin: 0 0 0 200px;">Trial other Bootcamp</h5></div>
-      <div style="width: 75%; display: flex; justify-content: space-between; margin: 10px auto 0 auto;">
-        <div style="display: flex; justify-content: space-around;">
-          <div style="display: flex; justify-content: space-around; margin-right: 40px; align-items: center;">
+      <div><h5 class="trial-title my-0 mr-0">Trial other Bootcamp</h5></div>
+      <div class="bootcamp-sec-div-container mx-auto mt-2 mb-0">
+        <div class="bootcamp-sec-flex-container">
+          <div class="bootcamp-img-div mr-4">
             <img src="./public/images/layer-115.png" width="110px" height="80px" alt="green php">
             <img src="./public/images/mobile-developer-bootcamp.png" width="200px" height="80px" alt="green php">
           </div>
-          <div style="display: flex; justify-content: space-around; align-items: center;">
+          <div class="bootcamp-img-div">
             <img src="./public/images/layer-114.png" width="110px" height="80px" alt="green php">
             <img src="./public/images/software-engineer-bootcamp.png" width="200px" height="80px" alt="green php">
           </div>
         </div>
-        <div class="" style="margin-right: 80px;">
+        <div class="upgrade-div">
           <h5 class="card-title">Upgrade to the full bootcamp.</h5>
           <div class="text-secondary my-4" >Our next cohort starts 3 January 2018.</div>
           <div>
@@ -134,11 +139,11 @@
       </div>
     </div>
 
-    <!-- MOBILE VIEW STARTS -->
+    <!-- MOBILE VIEW STARTS BELOW -->
 
-    <div class="main-div2">
+    <div class="main-div-mobile">
       <div class="left-div1">
-        <div class="card left-card" style="height: auto;">
+        <div class="card left-card" >
           <div class="card-body left-card-body">
             <div class="left-card-top">
               <div class="left-card-image">
@@ -173,17 +178,15 @@
             </div>
           </div>
         </div>
-
-      <!-- ======================= -->
-      <div class="trial-div ">
-        <div class="mx-auto mb-4" style="width: 80%;" ><h5>Trial other Bootcamp</h5></div>
-        <div class="" style="display: flex; justify-content: space-between; margin: 10px auto 0 auto;">
-          <div class="" style="display: flex; flex-wrap: wrap; justify-content: space-around; margin: 20px 0;">
-            <div class="" style="display: flex; justify-content: space-around; align-items: center; margin: 20px 0">
+      <div class="trial-div">
+        <div class="trial-div1 mx-auto mb-4"><h5>Trial other Bootcamp</h5></div>
+        <div class="trial-div-2 mx-auto mt-2 mb-0">
+          <div class="trial-div-3 my-3 mx-0">
+            <div class="trial-flex-div my-3 mx-0">
               <img src="./public/images/layer-115.png" width="110px" height="80px" alt="green php">
               <img src="./public/images/mobile-developer-bootcamp.png" width="200px" height="80px" alt="green php">
             </div>
-            <div class="" style="display: flex; justify-content: space-around; align-items: center; margin: 20px 0">
+            <div class="trial-flex-div my-3 mx-0">
               <img src="./public/images/layer-114.png" width="110px" height="80px" alt="green php">
               <img src="./public/images/software-engineer-bootcamp.png" width="200px" height="80px" alt="green php">
             </div>
@@ -191,9 +194,6 @@
           <div>
         </div>
       </div>
-
-      <!-- ======================= -->
-
         <div class="journey-section mt-0 mx-auto mb-4">
           <div class="card-body">
             <h5 class="card-title">Your coding journey</h5>
@@ -215,7 +215,6 @@
           </div>
         </div>
         <hr />
-
         <div class="upgrade-div mt-4 mx-auto mb-0">
           <h5 class="card-title">Upgrade to the full bootcamp.</h5>
           <div class="text-secondary my-4">Our next cohort starts 3 January 2018.</div>
@@ -230,6 +229,5 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="main.js"></script>
 </body>
 </html>

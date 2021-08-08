@@ -4,14 +4,13 @@
 }
 
 * {
-  font-family: 'sans-serif' !important;
   margin: 0;
   padding: 0;
 }
 
 
 body {
-  /* font-family: 'sans-serif' !important; */
+  font-family: 'Avenir' !important;
   background-color: #fafafa !important;
 }
 
@@ -46,6 +45,17 @@ body {
   background-color: #f1632b !important;
 }
 
+.left-div1 {
+  width: 90%;
+  display: flex;
+  justify-content: space-around; 
+  margin: auto;
+}
+
+.left-div {
+  width: 45%;
+}
+
 .left-card {
   width: 45rem !important;
   height: 28rem !important;
@@ -61,18 +71,70 @@ body {
 -moz-box-shadow: 1px -1px 12px -1px rgba(204,198,198,0.49);
 }
 
-.left-card-body {
-  line-height: 3;
-  width: 90%;
-  margin: auto 0 !important;
-}
-
 .left-card-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
   margin-bottom: 60px;
+}
+
+.left-card-body {
+  line-height: 3;
+  width: 90%;
+  margin: auto 0 !important;
+}
+
+.journey-sec-w {
+  width: 30%; margin-right: 0;
+}
+
+.journey-div-w {
+  width: 30rem; height: 30rem;
+}
+
+.text-red-div {
+  display: flex; align-items: center;
+}
+
+.trial-title {
+  margin-left: 200px !important;
+}
+
+.bootcamp-sec-div-container {
+  width: 75%; display: flex; justify-content: space-between;
+}
+
+.bootcamp-sec-flex-container {
+  display: flex; justify-content: space-around;
+}
+
+.bootcamp-img-div {
+  display: flex; justify-content: space-around; align-items: center;
+}
+
+.bootcamp-img-div {
+  display: flex; justify-content: space-around; align-items: center;
+}
+
+.upgrade-div {
+  margin-right: 80px;
+}
+
+.trial-div1 {
+  width: 80%;
+}
+
+.trial-div-2 {
+  display: flex; justify-content: space-between; 
+}
+
+.trial-div-3 {
+  display: flex; flex-wrap: wrap; justify-content: space-around;
+}
+
+.trial-flex-div {
+  display: flex; justify-content: space-around; align-items: center;
 }
 
 .right-section {
@@ -96,6 +158,16 @@ body {
   content: none !important;
 }
 
+.dropdown-toggle {
+  background-color:transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.dropdown-item {
+  outline: none !important; border: none !important;
+}
+
 .dropdown-item:focus {
   outline-style: none !important;
   border: none !important;
@@ -103,11 +175,11 @@ body {
   background-color: #ddd !important;
 }
 
-.navbar1 {
+.navbar-mobile {
   display: none !important;
 }
 
-.main-div2 {
+.main-div-mobile {
   display: none !important;
 }
 
@@ -130,11 +202,15 @@ body {
       display: none !important
     }
 
+    .main-div-mobile {
+      display: block !important
+    }
+
     .navbar {
       display: none !important;
     }
 
-    .navbar1 {
+    .navbar-mobile {
       display: flex !important;
       align-items: center !important;
       justify-content: space-evenly !important;
@@ -183,10 +259,6 @@ body {
       margin: 0 !important;
       padding: 0 !important;
       border: none !important;
-    }
-
-    .main-div2 {
-      display: block !important
     }
 
     .left-card-top {
