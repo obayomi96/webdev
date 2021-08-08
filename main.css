@@ -1,16 +1,17 @@
 @font-face {
-  font-family: 'Avenir';
-  src: url('/public/fonts/Avenir-Heavy.ttf')  format('truetype');
+  font-family: 'Avenir' !important;
+  src: url('/public/fonts/Avenir-Medium.ttf')  format('truetype') !important;
 }
 
 * {
+  font-family: 'sans-serif' !important;
   margin: 0;
   padding: 0;
 }
 
 
 body {
-  font-family: 'Avenir';
+  /* font-family: 'sans-serif' !important; */
   background-color: #fafafa !important;
 }
 
@@ -28,13 +29,13 @@ body {
   border: 1px solid #f1632b !important;
 }
 
-.btn-outline-danger {
+.btn-outline-danger, .btn-outline-danger2 {
   color: #f1632b !important;
   border: 1px solid #f1632b !important;
   background-color: #fff !important;
 }
 
-.btn-outline-danger:hover {
+.btn-outline-danger2:hover {
   color: #fff !important;
   border: 1px solid #f1632b !important;
   background-color: #f1632b !important;
